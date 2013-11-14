@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+ <LinearLayout android:orientation="vertical"  
+        android:layout_width="wrap_content"    
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/left_margin"
+    	android:paddingLeft="@dimen/left_margin"
+	    android:paddingRight="@dimen/activity_vertical_margin"
+	    android:paddingTop="@dimen/left_margin">  
+  
+        <TextView android:id="@+id/titleItem"    
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:textColor="#CC0000"  
+            android:textSize="25px" />  
+        <TextView android:id="@+id/infoItem"    
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"    
+            android:textColor="#000000"  
+            android:textSize="15px" />  
+    </LinearLayout>  
+    
+</LinearLayout>
